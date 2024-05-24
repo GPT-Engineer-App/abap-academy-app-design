@@ -229,8 +229,6 @@ const Index = () => {
       {screen === "home" && <HomeScreen onStartTest={handleStartTest} />}
       {screen === "test" && <TestScreen onSubmitTest={handleSubmitTest} />}
       {screen === "results" && <TestResults onRetakeTest={handleRetakeTest} />}
-      {screen === "profile" && <UserProfile />}
-      {screen === "chatbot" && <Chatbot />}
     </Container>
   );
 };
