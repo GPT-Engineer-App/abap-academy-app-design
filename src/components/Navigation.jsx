@@ -14,6 +14,9 @@ function Navigation() {
         <Button as={Link} to="/profile" colorScheme="teal">
           Profile
         </Button>
+        <Button as={Link} to="/chatbot" colorScheme="teal">
+          Chatbot
+        </Button>
       </Flex>
     </Box>
   );
