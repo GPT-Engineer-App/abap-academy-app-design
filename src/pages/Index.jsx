@@ -15,11 +15,11 @@ const HomeScreen = ({ onStartTest }) => {
           <List spacing={3} mt={3}>
             <ListItem>
               <ListIcon as={FaCheckCircle} color="green.500" />
-              ABAP Basics - 2023-10-15
+              ABAP Basics - 2024-06-01
             </ListItem>
             <ListItem>
               <ListIcon as={FaCheckCircle} color="green.500" />
-              Advanced ABAP - 2023-10-20
+              Advanced ABAP - 2024-06-05
             </ListItem>
           </List>
         </Box>
